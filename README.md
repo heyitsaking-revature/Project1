@@ -5,7 +5,7 @@ Team Lead:
 - Carlos Bermudez Rojas
 
 Team Members:
-- Gabriel Cohavy
+- Gabriel Cohavy testing
 - Griffin Donovan
 - Dillon Hughes
 - Arturo King
