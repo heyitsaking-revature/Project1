@@ -116,11 +116,5 @@
 		<members>Account.Welcome_Account</members>
 		<name>WorkflowTask</name>
 	</types>
-	<types>
-		<members>Account__c</members>
-		<members>Inhabitant__c</members>
-		<members>Package__c</members>
-		<name>CustomTab</name>
-	</types>
 	<version>48.0</version>
 </Package>

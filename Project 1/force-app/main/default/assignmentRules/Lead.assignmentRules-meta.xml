@@ -4,11 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-<<<<<<< HEAD
             <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
-=======
-            <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
->>>>>>> 9be98bfc43c32d05973b554fe06f3e7eb0ff3dba
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -17,11 +13,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-<<<<<<< HEAD
             <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
-=======
-            <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
->>>>>>> 9be98bfc43c32d05973b554fe06f3e7eb0ff3dba
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
