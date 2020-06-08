@@ -117,6 +117,7 @@
 		<name>WorkflowTask</name>
 	</types>
 	<types>
+		<members>Account__c</members>
 		<members>Inhabitant__c</members>
 		<members>Package__c</members>
 		<name>CustomTab</name>
