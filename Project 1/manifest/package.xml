@@ -116,5 +116,11 @@
 		<members>Account.Welcome_Account</members>
 		<name>WorkflowTask</name>
 	</types>
+	<types>
+		<members>Adresses</members>
+		<members>Inhabitants</members>
+		<members>Packages</members>
+		<name>CutomTab</name>
+	</types>
 	<version>48.0</version>
 </Package>
