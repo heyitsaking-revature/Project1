@@ -21,12 +21,20 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>120</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -49,12 +57,20 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -77,12 +93,20 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>240</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -105,12 +129,20 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>480</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -128,12 +160,20 @@
                 <value>Silver</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>720</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -151,12 +191,20 @@
                 <value>Bronze</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1440</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -174,12 +222,20 @@
                 <value>Gold,Platinum</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -197,12 +253,20 @@
                 <value>Silver,Bronze</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+                <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1080</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>cabermudezr@brave-hawk-t3t6p.com</notifyTo>
+=======
+                <notifyTo>gcohavy@wise-raccoon-rbwjtk.com</notifyTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>

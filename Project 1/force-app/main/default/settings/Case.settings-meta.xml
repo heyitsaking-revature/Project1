@@ -11,9 +11,15 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>cabermudezr@resilient-wolf-46le6q.com</defaultCaseOwner>
+<<<<<<< HEAD
+    <defaultCaseOwner>gcohavy@wise-raccoon-rbwjtk.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>cabermudezr@resilient-wolf-46le6q.com</defaultCaseUser>
+    <defaultCaseUser>gcohavy@wise-raccoon-rbwjtk.com</defaultCaseUser>
+=======
+    <defaultCaseOwner>hughes.dillon1994@curious-koala-3ec0g.com</defaultCaseOwner>
+    <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>hughes.dillon1994@curious-koala-3ec0g.com</defaultCaseUser>
+>>>>>>> 9be98bfc43c32d05973b554fe06f3e7eb0ff3dba
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>

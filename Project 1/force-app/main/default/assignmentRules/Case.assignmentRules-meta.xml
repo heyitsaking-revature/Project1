@@ -4,7 +4,11 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+            <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -23,7 +27,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+            <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -42,7 +50,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+            <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -61,7 +73,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+            <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -80,7 +96,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>cabermudezr@brave-hawk-t3t6p.com</assignedTo>
+=======
+            <assignedTo>gcohavy@wise-raccoon-rbwjtk.com</assignedTo>
+>>>>>>> f3f1a72f8418e8f22609f57faf2fe3fbd90e00ef
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>

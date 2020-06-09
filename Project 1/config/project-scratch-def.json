@@ -1,6 +1,9 @@
 {
   "orgName": "Demo company",
   "edition": "Developer",
+<<<<<<< HEAD
+  "features": []
+=======
   "features": [],
   "settings": {
     "lightningExperienceSettings": {
@@ -15,4 +18,5 @@
         "enableS1EncryptedStoragePref2": false
     }
   }
+>>>>>>> master
 }
