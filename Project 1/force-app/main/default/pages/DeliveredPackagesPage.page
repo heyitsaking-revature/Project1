@@ -2,7 +2,7 @@
     <apex:pageBlock title="Delivered Packages">    
         <apex:pageBlockTable value="{!deliveredPackages}" var="package">
             <apex:column value="{!package.Name}"/>
-            <apex:column value="{!package.Destination__c.MailingAddress}"/>
+            <apex:column value="{!package.Destination__c.MailingAddress__c}"/>
         </apex:pageBlockTable>
     </apex:pageBlock>
 </apex:page>

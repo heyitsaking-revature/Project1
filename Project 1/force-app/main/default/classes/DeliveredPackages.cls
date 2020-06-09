@@ -11,7 +11,7 @@ public class DeliveredPackages {
             if(setCon == null) {
                 Contact contactInfo = [SELECT MailingStreet, MailingCity, MailingState, MailingPostalCode, MailingCountry FROM Contact WHERE Id IN (SELECT ContactId FROM User WHERE Id = :userId)];
 
-                setCon = new ApexPages.StandardSetController(Database.getQueryLocator([SELECT Name, Destination__c.MailingAddress
+                setCon = new ApexPages.StandardSetController(Database.getQueryLocator([SELECT Name, Destination__c.MailingAddress__c
                                                                                         FROM Package__c
                                                                                         WHERE Status__c = 'Delivered' AND
                                                                                             (Destination__c.Street == contactInfo.MailingStreet AND
