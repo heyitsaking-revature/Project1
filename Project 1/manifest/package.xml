@@ -72,6 +72,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>LightningComponentBundle</name>
 	</types>
 	<types>
@@ -98,10 +102,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Settings</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>StaticResource</name>
 	</types>
 	<types>
@@ -120,5 +120,17 @@
 		<members>Account.Welcome_Account</members>
 		<name>WorkflowTask</name>
 	</types>
+	<types>
+        <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SiteDotCom</name>
+    </types>
 	<version>48.0</version>
 </Package>

@@ -8,6 +8,6 @@ Scrum Master:
 - Arturo King
 
 Team Members:
-- Gabriel Cohavy
+- Gabriel Cohavy testing
 - Griffin Donovan
 - Dillon Hughes
