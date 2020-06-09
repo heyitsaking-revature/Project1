@@ -1,0 +1,8 @@
+<apex:page standardController="Package__c" recordSetVar="deliveredPackages" extensions="DeliveredPackages">
+    <apex:pageBlock title="Delivered Packages">    
+        <apex:pageBlockTable value="{!deliveredPackages}" var="package">
+            <apex:column value="{!package.Name}"/>
+            <apex:column value="{!package.Destination__c.MailingAddress}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>
