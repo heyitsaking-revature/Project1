@@ -23,8 +23,8 @@
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>gcohavy@wise-raccoon-rbwjtk.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>gcohavy@wise-raccoon-rbwjtk.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>cabermudezr@brave-hawk-t3t6p.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>cabermudezr@brave-hawk-t3t6p.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>gcproject-developer-edition</subdomain>
 </CustomSite>
