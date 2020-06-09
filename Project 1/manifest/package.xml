@@ -22,26 +22,6 @@
 	</types>
 	<types>
 		<members>*</members>
-<<<<<<< HEAD
-=======
-		<name>ApprovalProcess</name>
-	</types>
-	<types>
-		<members>Case.Standard</members>
-		<members>Lead.Standard</members>
-		<name>AssignmentRule</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>AssignmentRules</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>AuraDefinitionBundle</name>
-	</types>
-	<types>
-		<members>*</members>
->>>>>>> master
 		<name>AutoResponseRules</name>
 	</types>
 	<types>
@@ -49,38 +29,14 @@
 		<name>Community</name>
 	</types>
 	<types>
-<<<<<<< HEAD
 		<members>*</members>
 		<members>Account</members>
 		<members>Case</members>
 		<members>Contact</members>
-=======
-		<members>Account</members>
-		<members>Address__c</members>
-		<members>Case</members>
-		<members>Contact</members>
-		<members>Inhabitant__c</members>
-		<members>Package__c</members>
->>>>>>> master
 		<name>CustomObject</name>
 	</types>
 	<types>
 		<members>*</members>
-<<<<<<< HEAD
-=======
-		<name>DuplicateRule</name>
-	</types>
-	<types>
-		<members>Case.Standard</members>
-		<name>EscalationRule</name>
-	</types>
-	<types>
-		<members>Case</members>
-		<name>EscalationRules</name>
-	</types>
-	<types>
-		<members>*</members>
->>>>>>> master
 		<name>FlexiPage</name>
 	</types>
 	<types>
