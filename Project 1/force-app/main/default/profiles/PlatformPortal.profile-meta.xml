@@ -600,7 +600,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-<<<<<<< HEAD
         <apexPage>SiteLogin</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -626,9 +625,6 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>UnderConstruction</apexPage>
-=======
-        <apexPage>WebtoCasePage</apexPage>
->>>>>>> master
         <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
