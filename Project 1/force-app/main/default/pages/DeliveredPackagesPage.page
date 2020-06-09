@@ -1,4 +1,4 @@
-<apex:page standardController="Package__c" recordSetVar="deliveredPackages" extensions="DeliveredPackages">
+<apex:page standardController="Package__c" recordSetVar="deliveredPackages">
     <apex:pageBlock title="Delivered Packages">    
         <apex:pageBlockTable value="{!deliveredPackages}" var="package">
             <apex:column value="{!package.Name}"/>

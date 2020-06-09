@@ -1,8 +1,8 @@
 public class DeliveredPackages {
     private final Package__c pack;
-    Id userId = UserInfo.getUserId();;
+    Id userId = UserInfo.getUserId();
     
-    public DeliveredPackages(StandardController stdController) {
+    public DeliveredPackages(ApexPages.StandardController stdController) {
         this.pack = (Package__c)stdController.getRecord();
     }
 
@@ -14,11 +14,11 @@ public class DeliveredPackages {
                 setCon = new ApexPages.StandardSetController(Database.getQueryLocator([SELECT Name, Destination__c.MailingAddress__c
                                                                                         FROM Package__c
                                                                                         WHERE Status__c = 'Delivered' AND
-                                                                                            (Destination__c.Street == contactInfo.MailingStreet AND
-                                                                                            Destination__c.City == contactInfo.MailingCity AND
-                                                                                            Destination__c.State == contactInfo.MailingState AND
-                                                                                            Destination__c.PostalCode == contactInfo.MailingPostalCode AND
-                                                                                            Destination__c.Country == contactInfo.MailingCountry)]));
+                                                                                            (Destination__c.Street = contactInfo.MailingStreet AND
+                                                                                            Destination__c.City = contactInfo.MailingCity AND
+                                                                                            Destination__c.State = contactInfo.MailingState AND
+                                                                                            Destination__c.PostalCode = contactInfo.MailingPostalCode AND
+                                                                                            Destination__c.Country = contactInfo.MailingCountry)]));
             }
             return setCon;
         }
