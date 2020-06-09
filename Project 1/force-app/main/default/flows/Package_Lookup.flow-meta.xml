@@ -70,11 +70,6 @@
             <fieldType>DisplayText</fieldType>
         </fields>
         <fields>
-            <name>Sender</name>
-            <fieldText>&lt;p&gt;Sent by: {!Get_Package.Sender__c}&lt;/p&gt;</fieldText>
-            <fieldType>DisplayText</fieldType>
-        </fields>
-        <fields>
             <name>Receiver</name>
             <fieldText>&lt;p&gt;To: {!Get_Package.Receiver__c}&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
@@ -94,5 +89,5 @@
             <targetReference>Package_Finder</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
