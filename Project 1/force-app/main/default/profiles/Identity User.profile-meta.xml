@@ -443,6 +443,10 @@
         <apexPage>PackageLookupPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <pageAccesses>
+        <apexPage>WebtoCasePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
