@@ -22,8 +22,6 @@
 	</types>
 	<types>
 		<members>*</members>
-<<<<<<< HEAD
-=======
 		<name>ApprovalProcess</name>
 	</types>
 	<types>
@@ -41,7 +39,6 @@
 	</types>
 	<types>
 		<members>*</members>
->>>>>>> master
 		<name>AutoResponseRules</name>
 	</types>
 	<types>
@@ -49,25 +46,15 @@
 		<name>Community</name>
 	</types>
 	<types>
-<<<<<<< HEAD
-		<members>*</members>
-		<members>Account</members>
-		<members>Case</members>
-		<members>Contact</members>
-=======
 		<members>Account</members>
 		<members>Address__c</members>
 		<members>Case</members>
 		<members>Contact</members>
-		<members>Inhabitant__c</members>
 		<members>Package__c</members>
->>>>>>> master
 		<name>CustomObject</name>
 	</types>
 	<types>
 		<members>*</members>
-<<<<<<< HEAD
-=======
 		<name>DuplicateRule</name>
 	</types>
 	<types>
@@ -80,7 +67,6 @@
 	</types>
 	<types>
 		<members>*</members>
->>>>>>> master
 		<name>FlexiPage</name>
 	</types>
 	<types>
@@ -107,10 +93,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Profile</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>Queue</name>
 	</types>
 	<types>
@@ -133,17 +115,5 @@
 		<members>Account.Welcome_Account</members>
 		<name>WorkflowTask</name>
 	</types>
-	<types>
-        <members>*</members>
-        <name>Network</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomSite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>SiteDotCom</name>
-    </types>
 	<version>48.0</version>
 </Package>
