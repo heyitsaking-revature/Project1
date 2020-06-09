@@ -2,7 +2,6 @@
     <apex:pageBlock title="List of Shipping Packages">
         <apex:pageBlockSection>
             <apex:pageBlockTable value="{!ShippingPackage}" var="p" >
-                <apex:column value="{!p.sender__c}" />
                 <apex:column value="{!p.destination__c}" />
                 <apex:column value="{!p.receiver__c}" />
                 <apex:column value="{!p.Destination__r.street_address__c}"/>
