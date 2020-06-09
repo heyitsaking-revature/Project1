@@ -39,10 +39,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Community</name>
-	</types>
-	<types>
-		<members>*</members>
 		<members>Account</members>
 		<members>Case</members>
 		<members>Contact</members>
@@ -76,10 +72,6 @@
 	</types>
 	<types>
 		<members>*</members>
-		<name>Profile</name>
-	</types>
-	<types>
-		<members>*</members>
 		<name>Queue</name>
 	</types>
 	<types>
@@ -102,17 +94,5 @@
 		<members>Account.Welcome_Account</members>
 		<name>WorkflowTask</name>
 	</types>
-	<types>
-        <members>*</members>
-        <name>Network</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomSite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>SiteDotCom</name>
-    </types>
 	<version>48.0</version>
 </Package>
