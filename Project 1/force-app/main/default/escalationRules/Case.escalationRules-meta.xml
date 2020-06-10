@@ -21,12 +21,20 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>120</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -49,12 +57,20 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -77,12 +93,20 @@
                 <value>High</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>240</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -105,12 +129,20 @@
                 <value>Medium,Low</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>480</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -128,12 +160,20 @@
                 <value>Silver</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>720</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -151,12 +191,20 @@
                 <value>Bronze</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1440</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -174,12 +222,20 @@
                 <value>Gold,Platinum</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>360</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
@@ -197,12 +253,20 @@
                 <value>Silver,Bronze</value>
             </criteriaItems>
             <escalationAction>
+<<<<<<< HEAD
                 <assignedTo>hughes.dillon1994@curious-koala-3ec0g.com</assignedTo>
+=======
+                <assignedTo>arturo.a.king.p@cunning-shark-el8rnt.com</assignedTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <assignedToTemplate>unfiled$public/SupportEscalatedCaseReassignment</assignedToTemplate>
                 <assignedToType>User</assignedToType>
                 <minutesToEscalation>1080</minutesToEscalation>
                 <notifyCaseOwner>false</notifyCaseOwner>
+<<<<<<< HEAD
                 <notifyTo>hughes.dillon1994@curious-koala-3ec0g.com</notifyTo>
+=======
+                <notifyTo>arturo.a.king.p@cunning-shark-el8rnt.com</notifyTo>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
                 <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+<<<<<<< HEAD
 		<members>*</members>
 		<name>ApexClass</name>
 	</types>
@@ -115,5 +116,14 @@
 		<members>Account.Welcome_Account</members>
 		<name>WorkflowTask</name>
 	</types>
+=======
+		<members>Account</members>
+		<members>Case</members>
+		<members>Contact</members>
+		<members>Address__c</members>
+		<members>Package__c</members>
+		<name>CustomObject</name>
+	</types>
+>>>>>>> 48803308fb85da5fa64bb463d99306b7fa3c34e3
 	<version>48.0</version>
 </Package>
