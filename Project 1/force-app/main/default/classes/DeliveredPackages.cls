@@ -14,7 +14,8 @@ public class DeliveredPackages {
                                                                                                 Destination__r.Street_Address__c,
                                                                                                 Destination__r.city__c,
                                                                                                 Destination__r.State__c, 
-                                                                                                Destination__r.Zip_Code__c
+                                                                                                Destination__r.Zip_Code__c,
+                                                                                                Status
                                                                                         FROM Package__c
                                                                                         WHERE Status__c = 'Delivered'
                                                                                         AND Receiver__c = :userContactId.Contact.id]));
