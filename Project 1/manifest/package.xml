@@ -17,5 +17,6 @@
 		<members>ShippingPackageList</members>
 		<members>DeliveredPakagesPage</members>
 		<name>ApexPage</name>
+	</types>
 	<version>48.0</version>
 </Package>
