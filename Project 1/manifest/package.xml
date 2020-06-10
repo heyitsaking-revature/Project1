@@ -2,7 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>ShippingPackage</members>
-		<members>DeliveredPakages</members>
+		<members>DeliveredPackages</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -15,7 +15,7 @@
 	</types>
     <types>
 		<members>ShippingPackageList</members>
-		<members>DeliveredPakagesPage</members>
+		<members>DeliveredPackagesPage</members>
 		<name>ApexPage</name>
 	</types>
 	<version>48.0</version>
