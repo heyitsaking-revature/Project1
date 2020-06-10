@@ -79,6 +79,11 @@
             <fieldText>&lt;p&gt;At: {!Get_Package.Destination__c}&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
+        <fields>
+            <name>CurrentStatus</name>
+            <fieldText>&lt;p&gt;Current Status:{!Get_Package.Status__c}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
