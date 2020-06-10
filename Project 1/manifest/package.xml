@@ -17,13 +17,5 @@
 		<members>ShippingPackageList</members>
 		<members>DeliveredPakagesPage</members>
 		<name>ApexPage</name>
-	</types>
-		<members>Account</members>
-		<members>Case</members>
-		<members>Contact</members>
-		<members>Address__c</members>
-		<members>Package__c</members>
-		<name>CustomObject</name>
-	</types>
 	<version>48.0</version>
 </Package>
