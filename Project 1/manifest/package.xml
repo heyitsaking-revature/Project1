@@ -16,7 +16,12 @@
     <types>
 		<members>ShippingPackageList</members>
 		<members>DeliveredPackagesPage</members>
+		<members>WebtoCasePage</members>
 		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>Create_Case</members>
+		<name>Flows</name>
 	</types>
 	<version>48.0</version>
 </Package>
