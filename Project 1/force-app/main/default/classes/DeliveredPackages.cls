@@ -9,7 +9,7 @@ public class DeliveredPackages {
     public ApexPages.StandardSetController setCon {
         get {
             if(setCon == null) {
-                Contact contactInfo = [SELECT MailingStreet, MailingCity, MailingState, MailingPostalCode FROM Contact WHERE Id IN (SELECT ContactId FROM User WHERE Id = :userId)];
+                Contact contactInfo = [SELECT MailingStreet, MailingCity, MailingState FROM Contact WHERE Id IN (SELECT ContactId FROM User WHERE Id = :userId)];
 
                 setCon = new ApexPages.StandardSetController(Database.getQueryLocator([SELECT Name, Destination__r.Mailing_Address__c
                                                                                         FROM Package__c
