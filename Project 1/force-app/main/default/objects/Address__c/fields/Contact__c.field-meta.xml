@@ -4,8 +4,8 @@
     <externalId>false</externalId>
     <label>Contact</label>
     <referenceTo>Contact</referenceTo>
-    <relationshipLabel>Adresses</relationshipLabel>
-    <relationshipName>Adresses</relationshipName>
+    <relationshipLabel>Addresses</relationshipLabel>
+    <relationshipName>Addresses</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
