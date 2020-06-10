@@ -17,6 +17,7 @@
 		<members>ShippingPackageList</members>
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
+		<members>PackageLookupPage</members>
 		<name>ApexPage</name>
 	</types>
 	<types>
