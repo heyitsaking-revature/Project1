@@ -18,5 +18,13 @@
 		<members>DeliveredPackagesPage</members>
 		<name>ApexPage</name>
 	</types>
+	<types>
+		<members>Package__c.Insurance_Approval</members>
+		<name>ApprovalProcess</name>
+	</types>
+		<types>
+		<members>Approval_Process_for_Insurance</members>
+		<name>Flow</name>
+	</types>
 	<version>48.0</version>
 </Package>

@@ -18,7 +18,7 @@ public with sharing class ShippingPackage {
                                             Destination__r.city__c, Destination__r.State__c, Destination__r.Zip_Code__c, Insurance__c
                                      FROM Package__c
                                   WHERE Status__c = 'Shipping' 
-                                    AND Receiver__c = :userContactId.ContactId
+                                  // AND Receiver__c = :userContactId.ContactId
                                     	] ));
             }
             return setCon;
