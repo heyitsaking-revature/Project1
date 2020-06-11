@@ -23,5 +23,9 @@
 		<members>Create_Case</members>
 		<name>Flow</name>
 	</types>
+	<types>
+		<members>PostalServiceLogo</members>
+		<name>StaticResource</name>
+	</types>
 	<version>48.0</version>
 </Package>
