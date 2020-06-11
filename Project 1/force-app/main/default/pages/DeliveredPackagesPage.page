@@ -1,7 +1,7 @@
-<apex:page standardController="Package__c" recordSetVar="package" extensions="DeliveredPackages">
+<apex:page standardController="Package__c" recordSetVar="pack" extensions="DeliveredPackages">
     <apex:pageBlock title="List of Delivered Packages">
         <apex:pageBlockSection>
-            <apex:pageBlockTable value="{!deliveredPackages}" var="package">
+            <apex:pageBlockTable value="{!deliveredPackage}" var="package">
                 <apex:column value="{!package.Receiver__r.Name}" />
                 <apex:column value="{!package.Destination__r.Street_Address__c}" />
                 <apex:column value="{!package.Destination__r.City__c}" />
