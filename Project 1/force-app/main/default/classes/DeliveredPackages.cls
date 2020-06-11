@@ -14,13 +14,26 @@ public class DeliveredPackages {
                                                                                                 Destination__r.Street_Address__c,
                                                                                                 Destination__r.city__c,
                                                                                                 Destination__r.State__c, 
-                                                                                                Destination__r.Zip_Code__c,
-                                                                                                Status
+                                                                                                Destination__r.Zip_Code__c                                                                                                
                                                                                         FROM Package__c
                                                                                         WHERE Status__c = 'Delivered'
                                                                                         AND Receiver__c = :userContactId.Contact.id]));
             }
             return setCon;
+        }
+        set;
+    }
+
+    public Boolean deliveredNext {
+        get {
+            return setCon.getHasNext();
+        }
+        set;
+    }
+
+    public Boolean deliveredPrevious {
+        get {
+            return setCon.getHasPrevious();
         }
         set;
     }
