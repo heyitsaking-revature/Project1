@@ -6,12 +6,8 @@ public with sharing class ShippingPackage {
         this.pack = (Package__c)controller.getRecord(); 
     }
     
-<<<<<<< HEAD
     public ApexPages.StandardSetController setCon{
        
-=======
-    public ApexPages.StandardSetController setCon {
->>>>>>> 47199e246e2bc8727aee5222ebf275d432b89af3
         get {
             if(setCon == null) {
                 
@@ -37,15 +33,12 @@ public with sharing class ShippingPackage {
 
     }  
     
-<<<<<<< HEAD
     public Boolean hasNext{
         get {
             return setCon.getHasNext();
         }
         set;
     }
-=======
->>>>>>> 47199e246e2bc8727aee5222ebf275d432b89af3
 
     public Boolean hasPrevious {
         get {
