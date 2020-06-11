@@ -1,0 +1,15 @@
+<apex:page Controller="PackageLookupController">
+    <apex:form >
+        <apex:inputText value="{!name}" label="Input"/>
+        <apex:commandButton value="Search records" action="{!search}"/>
+        <apex:commandButton value="Clear records" action="{!clear}"/>
+        <apex:pageBlock title="Search Result">
+            <apex:pageBlockTable value="{!pack}" var="p">
+                <apex:column value="{!p.Name}"/>
+                <apex:column value="{!p.Receiver__c}"/>
+                <apex:column value="{!p.Destination__c}"/>
+                <apex:column value="{!p.Status__c}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
