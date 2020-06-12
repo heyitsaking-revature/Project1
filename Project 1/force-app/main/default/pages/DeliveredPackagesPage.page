@@ -2,7 +2,8 @@
     <apex:pageBlock title="List of Delivered Packages">
         <apex:pageBlockSection >
             <apex:pageBlockTable value="{!deliveredPackage}" var="package">
-                <apex:column value="{!package.Receiver__r.Name}" />
+                <apex:column value="{!package.Name}" />
+                <apex:column value="{!package.Receiver__c}" />
                 <apex:column value="{!package.Destination__r.Street_Address__c}" />
                 <apex:column value="{!package.Destination__r.City__c}" />
                 <apex:column value="{!package.Destination__r.State__c}" />
@@ -11,8 +12,13 @@
         </apex:pageBlockSection>
         <apex:form >
             <apex:pageBlockSection >
+<<<<<<< HEAD
                 <apex:commandButton value="Previous" action="{!setcon.previous}" disabled="{!deliveredNext}"/>
                 <apex:commandButton value="Next" action="{!setcon.next}" disabled="{!deliveredPrevious}"/>
+=======
+                <apex:commandButton value="Previous" action="{!previous}" disabled="{!deliveredNext}"/>
+                <apex:commandButton value="Next" action="{!next}" disabled="{!deliveredPrevious}"/>
+>>>>>>> 23575c85106c4dfda92395390555401733cc1fb6
             </apex:pageBlockSection>
         </apex:form>
     </apex:pageBlock>

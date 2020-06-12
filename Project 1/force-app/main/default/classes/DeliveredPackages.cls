@@ -10,7 +10,7 @@ public with sharing class DeliveredPackages {
         get {
             if(setCon == null) {
                 User userContactId = [SELECT Contact.id FROM USER WHERE ID = :userId];
-                setCon = new ApexPages.StandardSetController(Database.getQueryLocator([SELECT Destination__c, Receiver__c , 
+                setCon = new ApexPages.StandardSetController(Database.getQueryLocator([SELECT Name, Destination__c, Receiver__c , 
                                                                                                 Destination__r.Street_Address__c,
                                                                                                 Destination__r.city__c,
                                                                                                 Destination__r.State__c, 
@@ -41,4 +41,12 @@ public with sharing class DeliveredPackages {
     public List<Package__c> getDeliveredPackage() {
         return (List<Package__c>) setCon.getRecords();
     }
+<<<<<<< HEAD
+=======
+    
+     
+    public ID getUserId(){
+        return this.userId;
+    }
+>>>>>>> 23575c85106c4dfda92395390555401733cc1fb6
 }
