@@ -4,6 +4,7 @@
 		<members>ShippingPackage</members>
 		<members>DeliveredPackages</members>
 		<members>PackageLookupController</members>
+		<members>ShippingPackage</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -22,6 +23,11 @@
 		<name>ApexPage</name>
 	</types>
 	<types>
+		<members>Package__c.Insurance_Approval</members>
+		<name>ApprovalProcess</name>
+	</types>
+		<types>
+		<members>Approval_Process_for_Insurance</members>
 		<members>Create_Case</members>
 		<name>Flow</name>
 	</types>

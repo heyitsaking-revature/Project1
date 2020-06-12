@@ -1,8 +1,7 @@
 public class ShippingPackage {
     private final Package__c pack;
     public ID userId = System.UserInfo.getUserId();
-    
-    
+
     public ShippingPackage(ApexPages.StandardSetController controller) {
         this.pack = (Package__c)controller.getRecord(); 
     }
@@ -31,7 +30,20 @@ public class ShippingPackage {
     public List<Package__c> getShippingPackage() {
 
         return (List<Package__c>) setCon.getRecords();
+    }  
+    
+    public Boolean hasNext{
+        get {
+            return setCon.getHasNext();
+        }
+        set;
+    }
 
-    } 
+    public Boolean hasPrevious {
+        get {
+            return setCon.getHasPrevious();
+        }
+        set;
+    }
 
 }

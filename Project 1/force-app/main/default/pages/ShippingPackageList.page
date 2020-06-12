@@ -13,8 +13,8 @@
         </apex:pageBlockSection>  
         <apex:form >       
             <apex:pageBlockSection >
-                <apex:commandLink action="{!previous}">Previous</apex:commandlink>
-                <apex:commandLink action="{!next}">Next</apex:commandlink>
+                <apex:commandButton action="{!setcon.previous}" disabled="{!NOT(hasPrevious)}" value="Previous" /> 
+                <apex:commandButton action="{!setcon.next}" disabled="{!NOT(hasNext)}" value="Next" />
             </apex:pageBlockSection> 
         </apex:form>
     </apex:pageBlock>
