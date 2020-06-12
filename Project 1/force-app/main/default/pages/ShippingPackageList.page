@@ -1,13 +1,14 @@
 <apex:page standardController="Package__c" recordSetVar="pack" extensions="ShippingPackage">   
     <apex:pageBlock title="List of Shipping Packages">
         <apex:pageBlockSection >
-            <apex:pageBlockTable style="width:100%" value="{!ShippingPackage}" var="p" >
-                <apex:column style="width:250px" headerValue="Receiver" value="{!p.Receiver__r.Name}" />
-                <apex:column style="width:250px" value="{!p.Destination__r.Street_Address__c}"/>
-                <apex:column style="width:150px" value="{!p.Destination__r.City__c}"/>
+            <apex:pageBlockTable value="{!ShippingPackage}" var="p" >
+                <apex:column value="{!p.Name}" />
+                <apex:column value="{!p.Destination__c}" />
+                <apex:column value="{!p.Receiver__c}" />
+                <apex:column value="{!p.Destination__r.Street_Address__c}"/>
+                <apex:column value="{!p.Destination__r.City__c}"/>
                 <apex:column value="{!p.Destination__r.State__c}"/>
-                <apex:column value="{!p.Destination__r.Zip_Code__c}"/>  
-                <apex:column value="{!p.Insurance__c}"/>  
+                <apex:column value="{!p.Destination__r.Zip_Code__c}"/>                    
             </apex:pageBlockTable>      
         </apex:pageBlockSection>  
         <apex:form >       
