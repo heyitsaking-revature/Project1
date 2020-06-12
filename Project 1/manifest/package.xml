@@ -20,7 +20,7 @@
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
-		<members>ShippingPackageList</members>
+		<members>ShippingPackageList</members> 
 		<name>ApexPage</name>
 	</types>
 	<types>
@@ -36,5 +36,9 @@
 		<members>unfiled$public/Copy_of_New_Missing_Packages_Report_EaH</members>
 		<name>Report</name>
 	</types>
+	<types>
+        <members>Dashboards_Postal_Service_Folder/ouMmMRoxfmGfmmUPaJwNBUKudRcYyD</members>
+        <name>Dashboard</name>
+    </types>
 	<version>48.0</version>
 </Package>
