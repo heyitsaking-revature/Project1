@@ -15,6 +15,7 @@
 		<name>CustomObject</name>
 	</types>
     <types>
+		<members>LandingPage</members>
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
