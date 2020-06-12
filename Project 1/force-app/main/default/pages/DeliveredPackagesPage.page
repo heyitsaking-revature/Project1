@@ -12,13 +12,10 @@
         </apex:pageBlockSection>
         <apex:form >
             <apex:pageBlockSection >
-<<<<<<< HEAD
                 <apex:commandButton value="Previous" action="{!setcon.previous}" disabled="{!deliveredNext}"/>
                 <apex:commandButton value="Next" action="{!setcon.next}" disabled="{!deliveredPrevious}"/>
-=======
                 <apex:commandButton value="Previous" action="{!previous}" disabled="{!deliveredNext}"/>
                 <apex:commandButton value="Next" action="{!next}" disabled="{!deliveredPrevious}"/>
->>>>>>> 23575c85106c4dfda92395390555401733cc1fb6
             </apex:pageBlockSection>
         </apex:form>
     </apex:pageBlock>

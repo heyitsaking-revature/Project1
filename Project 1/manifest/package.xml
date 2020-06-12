@@ -4,7 +4,6 @@
 		<members>ShippingPackage</members>
 		<members>DeliveredPackages</members>
 		<members>PackageLookupController</members>
-		<members>ShippingPackage</members>
 		<name>ApexClass</name>
 	</types>
 	<types>

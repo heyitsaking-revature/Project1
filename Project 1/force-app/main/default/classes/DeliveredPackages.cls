@@ -41,12 +41,9 @@ public with sharing class DeliveredPackages {
     public List<Package__c> getDeliveredPackage() {
         return (List<Package__c>) setCon.getRecords();
     }
-<<<<<<< HEAD
-=======
     
      
     public ID getUserId(){
         return this.userId;
     }
->>>>>>> 23575c85106c4dfda92395390555401733cc1fb6
 }
