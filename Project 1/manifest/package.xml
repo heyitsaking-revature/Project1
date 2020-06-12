@@ -4,7 +4,7 @@
 		<members>ShippingPackage</members>
 		<members>DeliveredPackages</members>
 		<members>PackageLookupController</members>
-		<!-- <members>ShippingPackage</members> -->
+		<members>ShippingPackage</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -20,7 +20,7 @@
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
-		<!-- <members>ShippingPackageList</members> -->
+		<members>ShippingPackageList</members>
 		<name>ApexPage</name>
 	</types>
 	<types>
