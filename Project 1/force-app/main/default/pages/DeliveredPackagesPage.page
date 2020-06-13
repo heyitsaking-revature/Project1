@@ -1,8 +1,20 @@
-<apex:page standardController="Package__c" recordSetVar="deliveredPackages">
-    <apex:pageBlock title="Delivered Packages">    
-        <apex:pageBlockTable value="{!deliveredPackages}" var="package">
-            <apex:column value="{!package.Name}"/>
-            <apex:column value="{!package.Destination__r.Mailing_Address__c}"/>
-        </apex:pageBlockTable>
+<apex:page standardController="Package__c" recordSetVar="pack" extensions="DeliveredPackages">
+    <apex:pageBlock title="List of Delivered Packages">
+        <apex:pageBlockSection >
+            <apex:pageBlockTable value="{!deliveredPackage}" var="package">
+                <apex:column value="{!package.Name}" />
+                <apex:column value="{!package.Receiver__c}" />
+                <apex:column value="{!package.Destination__r.Street_Address__c}" />
+                <apex:column value="{!package.Destination__r.City__c}" />
+                <apex:column value="{!package.Destination__r.State__c}" />
+                <apex:column value="{!package.Destination__r.Zip_Code__c}" />
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+        <apex:form >
+            <apex:pageBlockSection >
+                <apex:commandButton value="Previous" action="{!previous}" disabled="{!deliveredNext}"/>
+                <apex:commandButton value="Next" action="{!next}" disabled="{!deliveredPrevious}"/>
+            </apex:pageBlockSection>
+        </apex:form>
     </apex:pageBlock>
 </apex:page>

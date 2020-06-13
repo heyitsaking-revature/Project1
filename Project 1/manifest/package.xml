@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>ShippingPackage</members>
+		<members>DeliveredPackages</members>
+		<members>PackageLookupController</members>
+		<members>ShippingPackage</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
 		<members>Account</members>
+		<members>Address__c</members>
 		<members>Case</members>
 		<members>Contact</members>
-		<members>Address__c</members>
 		<members>Package__c</members>
 		<name>CustomObject</name>
+	</types>
+    <types>
+		<members>DeliveredPackagesPage</members>
+		<members>WebtoCasePage</members>
+		<members>PackageLookupPage</members>
+		<members>ShippingPackageList</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>Package__c.Insurance_Approval</members>
+		<name>ApprovalProcess</name>
+	</types>
+		<types>
+		<members>Approval_Process_for_Insurance</members>
+		<members>Create_Case</members>
+		<name>Flow</name>
 	</types>
 	<version>48.0</version>
 </Package>
