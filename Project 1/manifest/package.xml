@@ -4,6 +4,7 @@
 		<members>DeliveredPackages</members>
 		<members>PackageLookupController</members>
 		<members>ShippingPackage</members>
+		<members>OpenTickets</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -19,6 +20,7 @@
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
 		<members>ShippingPackageList</members>
+		<members>OpenTicketsPage</members>
 		<name>ApexPage</name>
 	</types>
 	<types>

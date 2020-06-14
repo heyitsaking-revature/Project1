@@ -1,0 +1,12 @@
+<apex:page standardController="Case" recordSetVar="openTicket"  extensions="OpenTickets">
+    <apex:form>
+        <apex:pageBlock>
+            <apex:pageBlockTable value="{!getOpenTickets}" var="tickets">
+                <apex:column value="{!tickets.Subject)"/>
+                <apex:column value="{!tickets.Description)"/>
+                <apex:column value="{!tickets.External_Comments__c)">
+                    
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
