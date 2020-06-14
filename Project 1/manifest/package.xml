@@ -53,12 +53,20 @@
 	<types>
     	<members>CIDTWMTM_Postal_Service_UtilityBar</members>
     	<name>FlexiPage</name>
-    <members>CIDTWMTM_Postal_Service</members>
-    <name>CustomApplication</name>
-  </types>
-  <types>
+	</types>
+	<types>
+    	<members>CIDTWMTM_Postal_Service</members>
+    	<name>CustomApplication</name>
+	</types>
+  	<types>
 		<members>PostalServiceLogo</members>
 		<name>StaticResource</name>
+	</types>
+	<types>
+		<members>Address__c</members>
+		<members>Package__c</members>
+		<members>Route__c</members>
+		<name>CustomTab</name>
 	</types>
 	<version>48.0</version>
 </Package>

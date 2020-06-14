@@ -1,4 +1,4 @@
-public class ShippingPackage {
+public with sharing class ShippingPackage {
     private final Package__c pack;
     public ID userId = System.UserInfo.getUserId();
 
@@ -18,7 +18,7 @@ public class ShippingPackage {
                                             Destination__r.city__c, Destination__r.State__c, Destination__r.Zip_Code__c
                                      FROM Package__c
                                   WHERE Status__c = 'Shipping' 
-                                    //AND Receiver__c = :userContactId.ContactId
+                                    AND Receiver__c = :userContactId.ContactId
                                         ] ));
             }
             return setCon;
