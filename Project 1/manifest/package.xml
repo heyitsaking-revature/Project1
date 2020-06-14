@@ -39,7 +39,7 @@
 	</types>
 	<types>
 		<members>DashboardsPostalServiceFolder</members>
-        <members>DashboardsPostalServiceFolder/ouMmMRoxfmGfmmUPaJwNBUKudRcYyD</members>
+        <members>Dashboards_Postal_Service_Folder/ouMmMRoxfmGfmmUPaJwNBUKudRcYyD</members>
         <name>Dashboard</name>
     </types>
 	<types>
@@ -67,6 +67,10 @@
 		<members>Package__c</members>
 		<members>Route__c</members>
 		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Missing_Packages</members>
+		<name>ReportType</name>
 	</types>
 	<version>48.0</version>
 </Package>
