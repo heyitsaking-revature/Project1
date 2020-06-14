@@ -20,7 +20,7 @@
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
-		<<members>ShippingPackageList</members>
+		<members>ShippingPackageList</members>
 		<name>ApexPage</name>
 	</types>
 	<types>
@@ -37,6 +37,7 @@
 		<name>Report</name>
 	</types>
 	<types>
+		<members>DashboardsPostalServiceFolder</members>
         <members>Dashboards_Postal_Service_Folder/ouMmMRoxfmGfmmUPaJwNBUKudRcYyD</members>
         <name>Dashboard</name>
     </types>
@@ -45,8 +46,12 @@
         <name>Workflow</name>
     </types>
 	<types>
-    <members>CIDTWMTM_Postal_Service</members>
-    <name>CustomApplication</name>
-</types>
+    	<members>CIDTWMTM_Postal_Service</members>
+    	<name>CustomApplication</name>
+	</types>
+	<types>
+    	<members>CIDTWMTM_Postal_Service_UtilityBar</members>
+    	<name>FlexiPage</name>
+	</types>
 	<version>48.0</version>
 </Package>
