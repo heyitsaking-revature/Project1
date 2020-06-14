@@ -20,7 +20,7 @@
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
-		<<members>ShippingPackageList</members>
+		<members>ShippingPackageList</members>
 		<name>ApexPage</name>
 	</types>
 	<types>
