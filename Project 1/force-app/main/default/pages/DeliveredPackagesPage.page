@@ -12,8 +12,8 @@
         </apex:pageBlockSection>
         <apex:form >
             <apex:pageBlockSection >
-                <apex:commandButton value="Previous" action="{!previous}" disabled="{!deliveredNext}"/>
-                <apex:commandButton value="Next" action="{!next}" disabled="{!deliveredPrevious}"/>
+                <apex:commandButton value="Previous" action="{!setcon.previous}" disabled="{!deliveredNext}"/>
+                <apex:commandButton value="Next" action="{!setcon.next}" disabled="{!deliveredPrevious}"/>
             </apex:pageBlockSection>
         </apex:form>
     </apex:pageBlock>

@@ -4,7 +4,6 @@
 		<members>ShippingPackage</members>
 		<members>DeliveredPackages</members>
 		<members>PackageLookupController</members>
-		<members>ShippingPackage</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -16,6 +15,7 @@
 		<name>CustomObject</name>
 	</types>
     <types>
+		<members>LandingPage</members>
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
@@ -30,6 +30,10 @@
 		<members>Approval_Process_for_Insurance</members>
 		<members>Create_Case</members>
 		<name>Flow</name>
+	</types>
+	<types>
+		<members>PostalServiceLogo</members>
+		<name>StaticResource</name>
 	</types>
 	<version>48.0</version>
 </Package>
