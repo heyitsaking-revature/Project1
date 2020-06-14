@@ -1,12 +1,20 @@
-<apex:page standardController="Case" recordSetVar="openTicket"  extensions="OpenTickets">
+<apex:page standardController="Case" recordSetVar="openCase"  extensions="OpenTickets">
     <apex:form>
-        <apex:pageBlock>
-            <apex:pageBlockTable value="{!getOpenTickets}" var="tickets">
-                <apex:column value="{!tickets.Subject)"/>
-                <apex:column value="{!tickets.Description)"/>
-                <apex:column value="{!tickets.External_Comments__c)">
-                    
-            </apex:pageBlockTable>
+        <apex:pageBlock title="Open Tickets">
+            <apex:pageBlockSection>
+                <apex:pageBlockTable value="{!openTicket}" var="tickets">
+                    <apex:column value="{!tickets.Subject}"/>
+                    <apex:column value="{!tickets.Description}"/>
+                    <apex:column>
+                        <apex:outputField value="{!tickets.External_Comments__c}">
+                            <apex:inlineEditSupport event="ondblClick"/>
+                        </apex:outputField>
+                    </apex:column>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection>
+                <apex:commandButton value="Save" action="{!save}" id="saveButton"/>
+            </apex:pageBlockSection>
         </apex:pageBlock>
     </apex:form>
 </apex:page>

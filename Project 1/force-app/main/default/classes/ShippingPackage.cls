@@ -27,10 +27,6 @@ public class ShippingPackage {
         
         return listPack;
 
-<<<<<<< HEAD
-    }
-   
-=======
         return (List<Package__c>) setCon.getRecords();
     }  
     
@@ -48,5 +44,4 @@ public class ShippingPackage {
         set;
     }
 
->>>>>>> 8b84030717e35279c0ccd21fcde20770282180ed
 }
