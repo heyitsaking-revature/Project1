@@ -74,5 +74,9 @@
 		<members>Route__c</members>
 		<name>CustomTab</name>
 	</types>
+	<types>
+		<members>Missing_Packages</members>
+		<name>ReportType</name>
+	</types>
 	<version>48.0</version>
 </Package>
