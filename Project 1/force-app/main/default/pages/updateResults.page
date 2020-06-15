@@ -1,0 +1,17 @@
+<apex:page controller="ContactLookupController" >
+    <apex:form >
+        <apex:pageBlock title="Enter Updated Information">
+            <apex:pageBlockSection >
+                <apex:inputField value="{!con.FirstName}"/>
+                <apex:inputField value="{!con.LastName}"/>
+                <apex:inputField value="{!con.Phone}"/>
+                <apex:inputField value="{!con.Email}"/>
+                <apex:inputField value="{!con.Mailingstreet}"/>
+                <apex:inputField value="{!con.MailingState}"/>
+                <apex:inputField value="{!con.Mailingpostalcode}"/>
+            </apex:pageBlockSection>
+            <apex:commandButton value="Save" action="{!save}"/>
+            <apex:commandButton value="Back to Start" action="{!ContactLookupInputPage}"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

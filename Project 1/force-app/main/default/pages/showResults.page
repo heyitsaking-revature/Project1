@@ -1,0 +1,18 @@
+<apex:page controller="ContactLookupController" docType="HTML-5.0">
+    <apex:form >
+        <apex:pageBlock title="Current Contact Information">
+            <apex:pageBlockSection >
+            <apex:outputText value="{!con.firstName}" label="First Name"/>
+            <apex:outputText value="{!con.Lastname}" label="Last Name"/>
+            <apex:outputText value="{!con.Email}" label="Email"/>
+            <apex:outputText value="{!con.Phone}" label="Phone"/>
+            <apex:outputText value="{!con.MailingAddresscombined__c}" label="Mailing Address"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Would you like to Update your Info?">
+            <apex:commandButton value="Yes" action="{!updateResults}"/>
+            <br/>
+                <apex:commandButton value="No" action="{!ContactLookupInputPage}"/>
+           </apex:pageBlockSection>                          
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
