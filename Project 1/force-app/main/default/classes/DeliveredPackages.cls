@@ -1,4 +1,4 @@
-public class DeliveredPackages {
+public with sharing class DeliveredPackages {
     private final Package__c pack;
     Id userId = UserInfo.getUserId();
     
