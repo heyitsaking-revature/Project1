@@ -40,11 +40,6 @@
 		<name>Flow</name>
 	</types>
 	<types>
-		<members>DashboardsPostalServiceFolder</members>
-        <members>DashboardsPostalServiceFolder/ouMmMRoxfmGfmmUPaJwNBUKudRcYyD</members>
-        <name>Dashboard</name>
-    </types>
-	<types>
         <members>Package__c</members>
         <name>Workflow</name>
     </types>
