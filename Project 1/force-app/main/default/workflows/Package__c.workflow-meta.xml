@@ -8,8 +8,7 @@
         </actions>
         <active>true</active>
         <description>When a package is created without a route, or a route removed from a package, assign a Task to do it</description>
-        <formula>If (AND(Route__c  = null, !ISPICKVAL(Status__c, &quot;Delivered&quot;) )
- , true  , false )</formula>
+        <formula>If (AND(Route__c  = null, !ISPICKVAL(Status__c, &quot;Delivered&quot;) )  , true  , false )</formula>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <tasks>
