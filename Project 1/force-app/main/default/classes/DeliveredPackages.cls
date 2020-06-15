@@ -16,12 +16,24 @@ public with sharing class DeliveredPackages {
                                                                                                 Destination__r.State__c, 
                                                                                                 Destination__r.Zip_Code__c                                                                                                
                                                                                         FROM Package__c
-                                                                                        WHERE Status__c = 'Delivered' AND
-                                                                                            ((Destination__r.Street_Address__c = :contactInfo.MailingStreet) AND
-                                                                                            (Destination__r.City__c = :contactInfo.MailingCity) AND
-                                                                                            (Destination__r.State__c = :contactInfo.MailingState))]));
+                                                                                        WHERE Status__c = 'Delivered'
+                                                                                        AND Receiver__c = :userContactId.Contact.id]));
             }
             return setCon;
+        }
+        set;
+    }
+
+    public Boolean deliveredNext {
+        get {
+            return setCon.getHasNext();
+        }
+        set;
+    }
+
+    public Boolean deliveredPrevious {
+        get {
+            return setCon.getHasPrevious();
         }
         set;
     }

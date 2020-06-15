@@ -1,4 +1,4 @@
-<apex:page controller="ContactLookupController" >
+<apex:page controller="ContactLookupController" showHeader="false">
     <apex:form >
         <apex:pageBlock title="Enter Updated Information">
             <apex:pageBlockSection >

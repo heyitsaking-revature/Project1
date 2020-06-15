@@ -2,8 +2,8 @@
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>cabermudezr@brave-hawk-t3t6p.com</sharedTo>
+        <sharedTo>gcohavy@wise-raccoon-rbwjtk.com</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
-    <name>Dashboards Postal Service Folder</name>
+    <name>DashboardsPostalServiceFolder</name>
 </DashboardFolder>

@@ -23,8 +23,9 @@ public with sharing class ShippingPackage {
             }
             return setCon;
         }
-        set;
-        
+        set; 
+    }
+  
     public List<Package__c> getShippingPackage() {
 
         return (List<Package__c>) setCon.getRecords();

@@ -1,4 +1,4 @@
-<apex:page controller="ContactLookupController" docType="HTML-5.0">
+<apex:page controller="ContactLookupController" docType="HTML-5.0" showHeader="false">
     <apex:form >
         <apex:pageBlock title="Current Contact Information">
             <apex:pageBlockSection >

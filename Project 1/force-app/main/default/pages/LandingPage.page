@@ -1,4 +1,4 @@
-<apex:page >
+<apex:page showHeader="false">
     <div style="background-color: #004781;
                 height: 100vh;
                 display: flex;

@@ -40,12 +40,8 @@
 		<name>Flow</name>
 	</types>
 	<types>
-		<members>unfiled$public/Copy_of_New_Missing_Packages_Report_EaH</members>
-		<name>Report</name>
-	</types>
-	<types>
 		<members>DashboardsPostalServiceFolder</members>
-        <members>Dashboards_Postal_Service_Folder/ouMmMRoxfmGfmmUPaJwNBUKudRcYyD</members>
+        <members>DashboardsPostalServiceFolder/ouMmMRoxfmGfmmUPaJwNBUKudRcYyD</members>
         <name>Dashboard</name>
     </types>
 	<types>
