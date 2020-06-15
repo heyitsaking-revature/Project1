@@ -4,24 +4,28 @@
 		<members>ShippingPackage</members>
 		<members>DeliveredPackages</members>
 		<members>PackageLookupController</members>
+		<members>ContactLookupController</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>Account</members>
-		<members>Address__c</members>
 		<members>Case</members>
 		<members>Contact</members>
+		<members>Address__c</members>
 		<members>Package__c</members>
 		<members>Route__c</members>
 		<name>CustomObject</name>
 	</types>
+
     <types>
 		<members>LandingPage</members>
 		<members>DeliveredPackagesPage</members>
 		<members>WebtoCasePage</members>
 		<members>PackageLookupPage</members>
 		<members>ShippingPackageList</members>
-		<members>LandingPage</members>
+		<members>ContactLookupInputPage</members>
+		<members>showResults</members>
+		<members>updateResults</members>
 		<name>ApexPage</name>
 	</types>
 	<types>
