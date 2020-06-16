@@ -11,7 +11,7 @@
                 <apex:inputField value="{!con.Mailingpostalcode}"/>
             </apex:pageBlockSection>
             <apex:commandButton value="Save" action="{!save}"/>
-            <apex:commandButton value="Back to Start" action="{!ContactLookupInputPage}"/>
+            <apex:commandButton value="Back to Start" action="{!ContactSearch}"/>
         </apex:pageBlock>
     </apex:form>
 </apex:page>

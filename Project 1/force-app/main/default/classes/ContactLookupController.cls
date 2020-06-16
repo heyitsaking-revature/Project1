@@ -1,23 +1,34 @@
 public class ContactLookupController {
-    public string inputEmail { get; set; }
-    public string inputFirstName { get; set; }        
-    public string inputLastName { get; set; }
-    public Contact con {get;set;}
+
+   Private final Contact con;
     
-    //con =[SELECT Name, Email, Phone, MailingAddresscombined__c FROM Contact WHERE Email like :inputEmail LIMIT 1];
+   public id userId = UserInfo.getUserId();    
+ 
+   // public id userId = '0054S000000mozsQAA';
+    Public contact currentUser;
     
     public ContactLookupController(){
-        con =[SELECT firstName, lastname, Email, Phone, MailingAddresscombined__c FROM Contact WHERE Email =:inputEmail LIMIT 1];
+    
+       User userContactId = [SELECT Contact.id FROM User WHERE ID = :userId];
+        Id contactid = userContactId.ContactId;
+        this.con = [SELECT Id, firstname, Lastname, phone, email, MailingStreet, MailingCity, MailingState, MailingPostalCode,Mailingaddresscombined__c FROM contact WHERE ID =:contactId];
+        
+        }
+    
+   public Contact getCon(){
+        
+      return this.con;
     }
     
-    public PageReference ContactLookupInputPage(){
-            
-            return Page.ContactLookupInputPage;
-        }
+    
+    public PageReference SearchContact(){
+        
+        return Page.SearchContact;
+    }
     
 
     public PageReference showResults(){
-  	con =[SELECT firstName, lastname, Email, Phone, MailingAddresscombined__c, MailingStreet, MailingState, MailingPostalCode FROM Contact WHERE Email = :inputEmail LIMIT 1];
+                     
         return Page.showResults;
     }
     
