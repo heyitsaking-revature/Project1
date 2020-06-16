@@ -11,7 +11,7 @@
             <apex:pageBlockSection title="Would you like to Update your Info?">
             <apex:commandButton value="Yes" action="{!updateResults}"/>
             <br/>
-                <apex:commandButton value="No" action="{!ContactLookupInputPage}"/>
+                <apex:commandButton value="No" action="{!ContactSearch}"/>
            </apex:pageBlockSection>                          
         </apex:pageBlock>
     </apex:form>
