@@ -3,8 +3,8 @@
         <apex:pageBlockSection >
             <apex:pageBlockTable value="{!ShippingPackage}" var="p" >
                 <apex:column value="{!p.Name}" />
-                <apex:column value="{!p.Destination__c}" />
-                <apex:column value="{!p.Receiver__c}" />
+                <apex:column value="{!p.Destination__r.Name}" />
+                <apex:column value="{!p.Receiver__r.Name}" />
                 <apex:column value="{!p.Destination__r.Street_Address__c}"/>
                 <apex:column value="{!p.Destination__r.City__c}"/>
                 <apex:column value="{!p.Destination__r.State__c}"/>
