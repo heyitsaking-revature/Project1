@@ -1,0 +1,9 @@
+<apex:page controller="ContactLookupController" docType="HTML 5.0">
+    <apex:form>
+        <apex:pageBlock title="Find and update Account info:">
+            <apex:pageBlockSection>
+                <apex:commandButton value="Search" action="{!showResults}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
