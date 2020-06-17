@@ -6,6 +6,7 @@
 		<members>ShippingPackage</members>
 		<members>OpenTickets</members>
 		<members>ContactLookupController</members>
+		<members>contactUtilityClass</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
@@ -68,6 +69,10 @@
 	<types>
 		<members>Missing_Packages</members>
 		<name>ReportType</name>
+	</types>
+	<types>
+		<members>contactTrigger</members>
+		<name>ApexTigger</name>
 	</types>
 	<version>48.0</version>
 </Package>
