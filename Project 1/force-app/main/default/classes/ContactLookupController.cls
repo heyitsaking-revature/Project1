@@ -1,10 +1,9 @@
 public class ContactLookupController {
-
    Private final Contact con;
     
-   public id userId = UserInfo.getUserId();    
+    public id userId = UserInfo.getUserId();    
  
-   // public id userId = '0054S000000mozsQAA';
+    //public id userId = '0054S000001373A';
     Public contact currentUser;
     
     public ContactLookupController(){
@@ -21,9 +20,9 @@ public class ContactLookupController {
     }
     
     
-    public PageReference SearchContact(){
+    public PageReference ContactSearch(){
         
-        return Page.SearchContact;
+        return Page.ContactSearch;
     }
     
 
@@ -42,5 +41,4 @@ public class ContactLookupController {
         return page.updateResults;
       
     }
-
 }

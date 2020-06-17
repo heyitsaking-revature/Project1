@@ -1,7 +1,7 @@
 <apex:page controller="ContactLookupController" docType="HTML-5.0" showHeader="false">
     <apex:form >
         <apex:pageBlock title="Current Contact Information">
-            <apex:pageBlockSection >
+            <apex:pageBlockSection columns="1">
             <apex:outputText value="{!con.firstName}" label="First Name"/>
             <apex:outputText value="{!con.Lastname}" label="Last Name"/>
             <apex:outputText value="{!con.Email}" label="Email"/>
