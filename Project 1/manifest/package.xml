@@ -26,7 +26,7 @@
 		<members>PackageLookupPage</members>
 		<members>ShippingPackageList</members>
 		<members>OpenTicketsPage</members>
-		<members>ContactLookupInputPage</members>
+		<members>ContactSearch</members>
 		<members>showResults</members>
 		<members>updateResults</members>
 		<name>ApexPage</name>
@@ -72,7 +72,7 @@
 	</types>
 	<types>
 		<members>contactTrigger</members>
-		<name>ApexTigger</name>
+		<name>ApexTrigger</name>
 	</types>
 	<version>48.0</version>
 </Package>

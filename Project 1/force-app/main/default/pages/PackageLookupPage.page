@@ -1,4 +1,4 @@
-<apex:page Controller="PackageLookupController">
+<apex:page Controller="PackageLookupController" showHeader="false">
     <apex:form >
         <apex:inputText value="{!name}" label="Input"/>
         <apex:commandButton value="Search records" action="{!search}"/>

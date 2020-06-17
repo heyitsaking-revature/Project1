@@ -1,8 +1,8 @@
-<apex:page controller="ContactLookupController" docType="HTML 5.0">
-    <apex:form>
+<apex:page controller="ContactLookupController" showHeader="false">
+    <apex:form >
         <apex:pageBlock title="Find and update Account info:">
-            <apex:pageBlockSection>
-                <apex:commandButton value="Search" action="{!showResults}"/>
+            <apex:pageBlockSection columns="1">
+                <apex:commandButton value="Account" action="{!showResults}"/>
             </apex:pageBlockSection>
         </apex:pageBlock>
     </apex:form>

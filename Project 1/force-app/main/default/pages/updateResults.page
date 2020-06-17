@@ -1,7 +1,7 @@
 <apex:page controller="ContactLookupController" showHeader="false">
     <apex:form >
         <apex:pageBlock title="Enter Updated Information">
-            <apex:pageBlockSection >
+            <apex:pageBlockSection columns="1">
                 <apex:inputField value="{!con.FirstName}"/>
                 <apex:inputField value="{!con.LastName}"/>
                 <apex:inputField value="{!con.Phone}"/>
