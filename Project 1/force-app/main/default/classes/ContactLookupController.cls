@@ -1,9 +1,9 @@
 public class ContactLookupController {
    Private final Contact con;
     
-   //public id userId = UserInfo.getUserId();    
+    public id userId = UserInfo.getUserId();    
  
-    public id userId = '0054S000001373A';
+    //public id userId = '0054S000001373A';
     Public contact currentUser;
     
     public ContactLookupController(){
